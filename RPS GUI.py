@@ -1,5 +1,4 @@
-#RPS GUI 
-#By Praveen Kathirvasan 9C
+
 from tkinter import *
 import random
 import tkinter
