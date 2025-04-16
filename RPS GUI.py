@@ -86,13 +86,13 @@ def rps(win, lose, user):
         var.set("You chose Rock, I chose Lizard. \nYou win")
         wins.set(wins.get() + 1)
         
-    elif user == 2 and computer == 5:
+  '''  elif user == 2 and computer == 5:
         var.set("You chose Paper, I chose Lizard. \nYou lose")
         lose +=1
         wins.set(wins.get() - 1)
     elif user == 3 and computer == 5:
         var.set("You chose Scissors, I chose Lizard. \nYou win")
-        wins.set(wins.get() + 1)
+        wins.set(wins.get() + 1) '''
         
     elif user == 4 and computer == 5:
         var.set("You chose Spock, I chose Lizard. \nYou lose")
@@ -128,3 +128,6 @@ labeled.grid(row=3, column=2)
 copy = Label(top, text= "RPS GUI on Tkinter on Python. By Praveen 2016")
 copy.grid(row=5, column=2)
 top.mainloop()
+
+
+
